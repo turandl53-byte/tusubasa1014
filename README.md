@@ -23,10 +23,6 @@ Yerel ağda çalışan, Twitter benzeri sosyal medya uygulaması.
 ## ⚙️ Kurulum
 
 
-# Projeyi klonla
-git clone https://github.com/Tusubasa1014/tvvitter.git
-cd tvvitter
-
 # Flask kur
 pip install flask
 
