@@ -22,7 +22,7 @@ Yerel ağda çalışan, Twitter benzeri sosyal medya uygulaması.
 
 ## ⚙️ Kurulum
 
-```bash
+
 # Projeyi klonla
 git clone https://github.com/kullanici_adin/tvvitter.git
 cd tvvitter
@@ -34,7 +34,7 @@ pip install flask
 python3 server.py
 
 
-🌐 Kullanım
+## 🌐Kurulum
 Tarayıcıda aç: http://localhost:8080
 
 Admin Paylaşımı
@@ -43,7 +43,8 @@ Admin şifresi: 12345
 Şifreyi değiştirmek için server.py içinde ADMIN_SIFRE değişkenini düzenle
 
 Ağdaki Diğer Cihazlardan Bağlanma
-bash
+
+
 # IP adresini öğren
 hostname -I
 
@@ -52,7 +53,9 @@ http://192.168.x.x:8080
 ngrok ile Dünyaya Açma
 bash
 ngrok http 8080
-📁 Dosya Yapısı
+
+
+## 📁 Dosya Yapısı
 text
 tvvitter/
 ├── server.py          # Flask sunucu
@@ -63,6 +66,8 @@ tvvitter/
 │   └── videolar/      # Yüklenen videolar
 └── templates/
     └── index.html     # Ana sayfa
+
+
 🔧 Özelleştirme
 Admin Şifresi Değiştirme
 server.py dosyasında:
@@ -77,7 +82,9 @@ time.sleep(90)  # 90 saniye, istediğin değeri yaz
 Tema Değiştirme
 index.html içindeki CSS renk kodlarını düzenle.
 
-🛡️ Güvenlik
+
+## 🛡️ Güvenlik
+
 Sadece yerel ağda çalışır
 
 Admin şifresi olmadan paylaşım yapılamaz
@@ -87,22 +94,8 @@ Veritabanı yok, sunucu kapanınca her şey silinir
 📝 Lisans
 MIT
 
-Geliştirici: [Senin Adın]
+Geliştirici: [tusubasa1014]
 
-Yapım Tarihi: 2024
+Yapım Tarihi: 2026
 
-text
 
----
-
-## 3️⃣ Kaydet: Ctrl+X, Y, Enter
-
----
-
-## 4️⃣ GitHub'a yükle:
-
-```bash
-cd ~/basit-twitter
-git add README.md
-git commit -m "README eklendi"
-git push
